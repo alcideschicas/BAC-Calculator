@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BAC Calculator</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" href="images/alc_logo.png">
+		<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+	</head>
+	<body onload="loadBAC()">
+		<div class="back-button">
+			<button onclick="goBack()" class="button-next">&larr;</button>
+		</div>
+
+		<div class="container-2">
+			<h1 id="bac-label">Your approximate BAC:</h1>
+			<h1 id="bac"></h1>
+			<p id="warning"></p>
+			<p id="feel"></p>
+			<button onclick = "goForward()" class="button-next">Home</button>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
