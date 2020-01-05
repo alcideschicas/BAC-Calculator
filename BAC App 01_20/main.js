@@ -99,6 +99,7 @@ function loadBAC() {
 	var bac = localStorage.getItem("BAC"); 
 	document.getElementById("bac").innerHTML = bac + "%";
 
+	// Display warning
 	if (bac >= 0.08) {
 		document.getElementById("warning").innerHTML = "Warning: It is illegal to drive at this level.";
 	} else {
