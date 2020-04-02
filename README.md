@@ -1,5 +1,6 @@
-# BAC-Calculator
-Simple web application that calculates user's blood alcohol concentration level
+# BAC Calculator
+* Simple web application that calculates user's blood alcohol concentration level
+* Uses vanilla JavaScript
 
 ![App Start](https://i.ibb.co/tD686kV/bac-calc-intro.png)
 
