@@ -2,7 +2,7 @@
 * Simple web application that calculates user's blood alcohol concentration level
 * Uses vanilla JavaScript
 
-![App Start](https://i.ibb.co/R7tr2Cr/bac-calc-intro-2.jpg)
-![Gives user BAC level](https://i.ibb.co/qYRxfTs/bac-calc-bac.jpg)
+![App Start](https://i.ibb.co/4JfJ3fJ/bac-calc-intro.jpg)
+![Gives user BAC level](https://i.ibb.co/CKkK6b2/bac-calc-bac.jpg)
 
 Access here: https://baccalc.netlify.com
