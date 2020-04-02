@@ -1,8 +1,8 @@
 # BAC-Calculator
 Simple web application that calculates user's blood alcohol concentration level
 
-![App Start](https://ibb.co/RcKzKZR)
+![App Start](https://i.ibb.co/tD686kV/bac-calc-intro.png)
 
-![Gives user BAC level](https://ibb.co/p49TrZn)
+![Gives user BAC level](https://i.ibb.co/JrMTF2C/bac-calc-bac.png)
 
 Access here: https://baccalc.netlify.com
