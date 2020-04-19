@@ -1,0 +1,286 @@
+body {
+	background-color: #00CFFF;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: white;
+	font-weight: bold;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	color: white;
+	font-weight: bold;
+	padding: 0;
+	margin-bottom: 80px;
+}
+
+h4 {
+	font-family: Verdana, Geneva, sans-serif;
+	color: white;
+	font-weight: bold;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+::placeholder {
+	color: rgba(240, 248, 255, 0.637);
+}
+
+button:focus, input:focus {
+	outline:0;
+}
+
+.container {
+	text-align: center;
+	margin-top: 200px;
+}
+
+.container-2 {
+	text-align: center;
+	margin-top: 120px;
+}
+
+.button-next {
+	border: 1.4px solid #3498db;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "montserrat";
+	font-weight: bold;
+	cursor: pointer;
+	margin: 10px;
+	color: white;
+	transition: 0.9s;
+	position: relative;
+	overflow: hidden;
+	border-radius: 19px;
+}
+
+.button-next:hover {
+	color: #00CFFF;
+}
+
+.button-next:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: white;
+	z-index: -1;
+	transition: 0.9s;
+}
+
+.button-next::before {
+	top: 0;
+	border-radius: 0 0 50% 50%;
+}
+
+.button-next:hover::before {
+	height: 180%;
+}
+
+.back-button {
+	margin: 0;
+}
+
+.bod {
+	margin-right: 19px;
+}
+
+#male {
+	background-color: #00CFFF;
+	cursor: pointer;
+	border: 1.4px solid #3498db;
+	border-radius: 19px;
+	margin: -50px 10px 10px 10px;
+	padding: 5px;
+}
+
+#male:hover {
+	background-color: #3498db;
+}
+
+#female {
+	background-color: #00CFFF;
+	border: 1.4px solid #3498db;
+	cursor: pointer;
+	border-radius: 19px;
+	margin: -50px 10px 10px 10px;
+	padding: 5px;
+}
+
+#female:hover {
+	background-color: #3498db;
+}
+
+#weight {
+	font-size: 30px;
+	margin: 40px 0 40px 30px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+	background-color: #00CFFF;
+	border: 1.4px solid #3498db;
+	border-radius: 19px;
+	color: white;
+}
+
+#weight-label {
+	font-size: 30px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: white;
+	padding: 0;
+}
+
+#add-drink {
+	margin-left: 30px;
+	margin-top: -20px;
+}
+
+#abv {
+	font-size: 30px;
+	margin: -10px 0 10px 65px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+	background-color: #00CFFF;
+	border: 1.4px solid #3498db;
+	border-radius: 19px;
+	color: white;
+}
+
+#oz {
+	font-size: 30px;
+	margin: 30px 0 40px -5px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+	background-color: #00CFFF;
+	border: 1.4px solid #3498db;
+	border-radius: 19px;
+	color: white;
+}
+
+#drink-name {
+	font-size: 30px;
+	margin: 0 0 40px 50px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+	background-color: #00CFFF;
+	border: 1.4px solid #3498db;
+	border-radius: 19px;
+	color: white;	
+}
+
+.drink-info {
+	margin-left: -42px;
+}
+
+#drink-time {
+	font-size: 40px;
+	margin-top: -36px;
+	margin-left: -30px;
+}
+
+#hours {
+	font-size: 30px;
+	margin: -10px 0 10px 45px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+	background-color: #00CFFF;
+	border: 1.4px solid #3498db;
+	border-radius: 19px;
+	color: white;
+}
+
+#minutes {
+	font-size: 30px;
+	margin: 30px 0 40px 80px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+	background-color: #00CFFF;
+	border: 1.4px solid #3498db;
+	border-radius: 19px;
+	color: white;
+}
+
+.calc {
+	margin-left: -49px;
+}
+
+#bac-label {
+	font-size: 40px;
+	margin-bottom: 50px;
+	margin-top: -60px;
+}
+
+#warning {
+	border: 1.4px solid #3498db;
+	background: red;
+	padding: 20px;
+	font-size: 17px;
+	font-family: "montserrat";
+	font-weight: bold;
+	margin: 20px;
+	margin-bottom: 35px;
+	color: white;
+	border-radius: 19px;	
+}
+
+#feel {
+	border: 1.4px solid #3498db;
+	background: none;
+	padding: 20px;
+	font-size: 17px;
+	font-family: "montserrat";
+	font-weight: bold;
+	margin: 20px;
+	margin-bottom: 60px;
+	color: white;
+	border-radius: 19px;
+}
+
+.drinkList {
+	border: 1.4px solid #3498db;
+	width: 37%;
+	margin-left: 30%;
+	border-radius: 19px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.remove-button {
+	background-color: red;
+	color: white;
+	padding: 6px 10px;
+	cursor: pointer;
+	border: 0;
+	float: right;
+	border-radius: 19px;
+}
+
+.remove-button:hover {
+	background-color: #8B0000;
+}
